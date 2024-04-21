@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'mixins';
+
+// Small Checkbox
+input.scheckbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+// Medium Checkbox
+input.checkbox {
+    width: 23.5px;
+    height: 23.5px;
+    cursor: pointer;
+}
+// Large Checkbox
+input.lcheckbox {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+// Extra-Large Checkbox
+input.xlcheckbox {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Labels */
+// Small Label
+.scheckbox { font-size: 15px; }
+// Medium Label
+.checkbox { font-size: 23.5px; }
+// Large Label
+.lcheckbox { font-size: 30px; }
+// Extra-Large Label
+.xlcheckbox { font-size: 40px; }

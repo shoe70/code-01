@@ -1,0 +1,54 @@
+.container { position: relative; }
+
+.ImpactText {
+    @include flex-center();
+    @include backtextoverlay();
+    font-size: 75px;
+    font-family: $Impactful;
+}
+
+.SubliminalText {
+    @include flex-center();
+    @include fronttextoverlay();
+    font-size: 25px;
+    top: 45px;
+    color: red;
+    font-family: $OldSchool;
+    text-align: center;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%);
+}
+
+/* Duplicate Overlays
+This is for the positioning 
+of the front text */
+
+.SubliminalText1 {
+    @include flex-center();
+    @include fronttextoverlay();
+    font-size: 25px;
+    top: 170px;
+    color: red;
+    font-family: $OldSchool;
+    text-align: center;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%);
+}
+
+.SubliminalText2 {
+    @include flex-center();
+    @include fronttextoverlay();
+    font-size: 25px;
+    top: 290px;
+    color: red;
+    font-family: $OldSchool;
+    text-align: center;
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%);
+}
+
+/* Padding */
+
+.box1 { padding: 10px; }
+.box2 { padding: 10px; }
+.box3 { padding: 10px; }

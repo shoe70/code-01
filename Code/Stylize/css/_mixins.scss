@@ -1,0 +1,41 @@
+@import 'variables';
+
+/* Card Function */
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+/* Text Overlays */
+
+@mixin backtextoverlay {
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+@mixin fronttextoverlay {
+    position: absolute;
+    width: 300px;
+    font-size: 15px;
+    left: 0px;
+    z-index: 1;
+}
+
+/* Colors */
+
+@mixin setcolor($color) {
+    color: $color;
+    background-color: $color;
+}

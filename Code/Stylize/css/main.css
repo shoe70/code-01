@@ -1,0 +1,231 @@
+/* Fonts */
+/* Colours */
+/* misc */
+/* Fonts */
+/* Colours */
+/* misc */
+/* Card Function */
+/* Text Overlays */
+/* Colors */
+.card {
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+  margin: 2rem;
+  box-shadow: 5px 5px 5px 5px #000;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  /* using the mixins function */
+}
+.card img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center center;
+}
+.card .card_content {
+  padding: 2rem;
+}
+.card .card_title {
+  margin: 0;
+  color: black;
+}
+.card .card_description {
+  margin: 0;
+  color: #999;
+}
+.card_dark {
+  background-color: black;
+}
+.card_dark .card_title {
+  color: white;
+}
+
+.container {
+  position: relative;
+}
+
+.ImpactText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  font-size: 75px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.SubliminalText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 300px;
+  font-size: 15px;
+  left: 0px;
+  z-index: 1;
+  font-size: 25px;
+  top: 45px;
+  color: red;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%);
+}
+
+/* Duplicate Overlays
+This is for the positioning 
+of the front text */
+.SubliminalText1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 300px;
+  font-size: 15px;
+  left: 0px;
+  z-index: 1;
+  font-size: 25px;
+  top: 170px;
+  color: red;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%);
+}
+
+.SubliminalText2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 300px;
+  font-size: 15px;
+  left: 0px;
+  z-index: 1;
+  font-size: 25px;
+  top: 290px;
+  color: red;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%);
+}
+
+/* Padding */
+.box1 {
+  padding: 10px;
+}
+
+.box2 {
+  padding: 10px;
+}
+
+.box3 {
+  padding: 10px;
+}
+
+/* Fonts */
+/* Colours */
+/* misc */
+/* Fonts */
+/* Colours */
+/* misc */
+/* Card Function */
+/* Text Overlays */
+/* Colors */
+input.scheckbox {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+input.checkbox {
+  width: 23.5px;
+  height: 23.5px;
+  cursor: pointer;
+}
+
+input.lcheckbox {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+input.xlcheckbox {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Labels */
+.scheckbox {
+  font-size: 15px;
+}
+
+.checkbox {
+  font-size: 23.5px;
+}
+
+.lcheckbox {
+  font-size: 30px;
+}
+
+.xlcheckbox {
+  font-size: 40px;
+}
+
+/* Fonts */
+/* Colours */
+/* misc */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002b36;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #4b4b4b;
+}
+
+.active {
+  background-color: #0099ff;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ffffff;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
