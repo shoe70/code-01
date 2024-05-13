@@ -1,5 +1,6 @@
 # code-01
-_a collection of all my code in the past year. :)_
+a collection of all my code in the past year. :)
+_note that larger projects will be released as separate repositories_
 
 - 23D
 > an old project about simulating the view of a 2d object
