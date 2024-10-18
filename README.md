@@ -12,7 +12,7 @@ _note that larger projects will be released as separate repositories_
 - Monopoly AI
 > an unfinished project that i'm hoping to continue sometime in the future
 - noise
-> a simple noise generator that I use for some art projects
+> a simple noise generator
 - ruby stuff
 > a collection of one file. ¯\_(ツ)_/¯
 - Stylize
