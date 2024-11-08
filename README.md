@@ -1,5 +1,5 @@
 # code-01
-a collection of all my code in the past year. :)
+a collection of all my code in the past year.
 
 _note that larger projects will be released as separate repositories_
 
